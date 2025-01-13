@@ -7,6 +7,7 @@ const MarkDown = () => {
     <>
       <div className="container">
         <textarea
+        placeholder="Write here"
           value={markDown}
           onChange={(e) => setMarkDown(e.target.value)}
           className="textArea"
